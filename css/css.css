@@ -3,118 +3,255 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 18px; /* Reducción de tamaño de fuente general */
+    font-size: 30px; /* Aumentado */
 }
 
 /* Hero */
 .hero {
-    font-size: 2em; /* Reducido */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imagenes/banner-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 3em; /* Aumentado */
 }
 
 .hero h1 {
-    font-size: 2.5em; /* Reducido */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em; /* Aumentado */
+    color: black;
+    margin: 0;
 }
 
 /* Intro */
 .intro-section {
-    padding: 30px;
-    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px; /* Aumentado */
+    gap: 40px; /* Aumentado */
+}
+
+.intro-text {
+    flex: 1;
 }
 
 .intro-text h2 {
-    font-size: 50px; /* Reducido */
+    font-size: 120px; /* Aumentado */
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .intro-text p {
-    font-size: 24px; /* Reducido */
+    font-size: 60px; /* Aumentado */
+    line-height: 1.5;
+}
+
+.intro-img {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro-img img {
-    max-width: 700px;
-    height: auto;
+    max-width: 1000px; /* Aumentado */
+    height: 1200px; /* Aumentado */
 }
 
-/* Label */
 .label {
-    font-size: 30px; /* Reducido */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Cursive', sans-serif;
+    font-size: 80px; /* Aumentado */
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Programs */
 .programs {
-    padding: 40px 30px;
+    background-color: #00d084;
+    padding: 60px 40px;
+    text-align: center;
 }
 
 .programs h2 {
-    font-size: 50px; /* Reducido */
+    font-size: 120px; /* Aumentado */
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.program-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .program-item {
-    width: 600px;
-    margin: 50px;
+    text-align: center;
+    width: 800px; /* Aumentado */
+    margin: 100px;
 }
 
 .program-item img {
-    height: 500px; /* Reducido */
+    width: 100%;
+    height: 800px; /* Aumentado */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .program-item p {
-    font-size: 30px; /* Reducido */
+    margin-top: 20px;
+    font-size: 90px; /* Aumentado */
+    font-weight: bold;
+    color: black;
 }
 
 /* Studio */
 .studio {
-    padding: 40px 30px;
-    gap: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    gap: 40px;
+}
+
+.studio-info {
+    flex: 1;
 }
 
 .studio-info h2 {
-    font-size: 50px; /* Reducido */
+    font-size: 120px; /* Aumentado */
+    font-weight: bold;
+    margin-bottom: 60px;
 }
 
 .studio-info p {
-    font-size: 28px; /* Reducido */
+    font-size: 80px; /* Aumentado */
+    line-height: 1.5;
+}
+
+.studio-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studio-img img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* Meet */
+.meet {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.meet-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    width: 100%;
+    height: 70%; /* Aumentado */
+}
+
+.meet-grid-item {
+    width: 100%;
+    height: 100%;
+}
+
+.meet-grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
 .meet-text {
-    font-size: 40px; /* Reducido */
+    background-color: #00aaff;
+    text-align: center;
+    padding: 20px;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 120px; /* Aumentado */
 }
 
 /* Footer */
 .footer {
-    font-size: 30px; /* Reducido */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    font-size: 100px; /* Aumentado */
+}
+
+.footer div {
+    text-align: center;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
+    .intro-section,
+    .studio {
+        flex-direction: column-reverse;
+    }
+
+    .meet-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .hero h1 {
-        font-size: 2em;
+        font-size: 4em; /* Aumentado */
     }
 
     .programs h2,
     .studio-info h2,
     .intro-text h2 {
-        font-size: 40px; /* Más pequeño */
+        font-size: 60px; /* Aumentado */
     }
 
     .program-item {
-        width: 80%;
+        width: 90%; /* Aumentado */
     }
 
     .program-item p {
-        font-size: 24px;
+        font-size: 60px; /* Aumentado */
     }
 
     .intro-text p,
     .studio-info p {
-        font-size: 20px;
+        font-size: 50px; /* Aumentado */
     }
 
     .meet-text {
-        font-size: 30px;
+        font-size: 90px; /* Aumentado */
     }
 
     .footer {
-        font-size: 25px;
+        font-size: 80px; /* Aumentado */
     }
 }
