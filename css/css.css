@@ -1,257 +1,257 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 30px; /* Aumentado */
+    font-family: Arial, sans-serif; /* Define la fuente principal */
+    margin: 0; /* Elimina márgenes predeterminados */
+    padding: 0; /* Elimina padding predeterminado */
+    text-align: center; /* Centra el texto */
+    font-size: 30px; /* Tamaño de fuente aumentado */
 }
 
 /* Hero */
 .hero {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url('../imagenes/banner-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-size: em; /* Aumentado */
+    position: relative; /* Posiciona elementos hijos de forma relativa */
+    width: 100%; /* Ocupa todo el ancho */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-image: url('../imagenes/banner-2.jpg'); /* Imagen de fondo */
+    background-position: center; /* Centra la imagen */
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-size: em; /* Tamaño de fuente aumentado */
 }
 
 .hero h1 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3em; /* Aumentado */
-    color: black;
-    margin: 0;
+    position: absolute; /* Posiciona el texto de forma absoluta */
+    top: 40%; /* Ajusta la posición vertical */
+    left: 50%; /* Ajusta la posición horizontal */
+    transform: translate(-50%, -50%); /* Centra el texto */
+    font-size: 3em; /* Tamaño del texto aumentado */
+    color: black; /* Color del texto */
+    margin: 0; /* Elimina márgenes */
 }
 
 /* Intro */
 .intro-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px; /* Aumentado */
-    gap: 40px; /* Aumentado */
+    display: flex; /* Usa un diseño flexible */
+    align-items: center; /* Alinea elementos verticalmente */
+    justify-content: space-between; /* Espacio entre elementos */
+    padding: 40px; /* Espaciado interno aumentado */
+    gap: 40px; /* Espaciado entre elementos aumentado */
 }
 
 .intro-text {
-    flex: 1;
+    flex: 1; /* Flexibilidad del contenedor */
 }
 
 .intro-text h2 {
-    font-size: 120px; /* Aumentado */
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 120px; /* Tamaño de fuente aumentado */
+    font-weight: bold; /* Fuente en negrita */
+    margin-bottom: 20px; /* Margen inferior */
 }
 
 .intro-text p {
-    font-size: 60px; /* Aumentado */
-    line-height: 1.5;
+    font-size: 60px; /* Tamaño de fuente aumentado */
+    line-height: 1.5; /* Altura de línea */
 }
 
 .intro-img {
-    flex: 1;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: 1; /* Flexibilidad del contenedor */
+    position: relative; /* Posiciona elementos hijos de forma relativa */
+    display: flex; /* Usa un diseño flexible */
+    justify-content: center; /* Centra elementos horizontalmente */
+    align-items: center; /* Centra elementos verticalmente */
 }
 
 .intro-img img {
-    max-width: 1000px; /* Aumentado */
-    height: 1200px; /* Aumentado */
+    max-width: 1000px; /* Ancho máximo aumentado */
+    height: 1200px; /* Altura aumentada */
 }
 
 .label {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-family: 'Cursive', sans-serif;
-    font-size: 80px; /* Aumentado */
-    font-weight: bold;
-    color: black;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: absolute; /* Posiciona el texto de forma absoluta */
+    bottom: 20px; /* Ajusta la posición vertical */
+    right: 20px; /* Ajusta la posición horizontal */
+    background-color: white; /* Color de fondo */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    font-family: 'Cursive', sans-serif; /* Fuente */
+    font-size: 80px; /* Tamaño de fuente aumentado */
+    font-weight: bold; /* Fuente en negrita */
+    color: black; /* Color del texto */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
 /* Programs */
 .programs {
-    background-color: #00d084;
-    padding: 60px 40px;
-    text-align: center;
+    background-color: #00d084; /* Color de fondo */
+    padding: 60px 40px; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
 }
 
 .programs h2 {
-    font-size: 120px; /* Aumentado */
-    font-weight: bold;
-    margin-bottom: 50px;
-    color: black;
+    font-size: 60px; /* Tamaño de fuente aumentado */
+    font-weight: bold; /* Fuente en negrita */
+    margin-bottom: 50px; /* Margen inferior */
+    color: black; /* Color del texto */
 }
 
 .program-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
+    display: flex; /* Usa un diseño flexible */
+    justify-content: center; /* Centra elementos horizontalmente */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    gap: 40px; /* Espaciado entre elementos */
 }
 
 .program-item {
-    text-align: center;
-    width: 800px; /* Aumentado */
-    margin: 100px;
+    text-align: center; /* Centra el texto */
+    width: 300px; /* Ancho aumentado */
+    margin: 100px; /* Margen */
 }
 
 .program-item img {
-    width: 100%;
-    height: 800px; /* Aumentado */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ancho completo */
+    height: 400px; /* Altura aumentada */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 .program-item p {
-    margin-top: 20px;
-    font-size: 60px; /* Aumentado */
-    font-weight: bold;
-    color: black;
+    margin-top: 20px; /* Margen superior */
+    font-size: 60px; /* Tamaño de fuente aumentado */
+    font-weight: bold; /* Fuente en negrita */
+    color: black; /* Color del texto */
 }
 
 /* Studio */
 .studio {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 60px 40px;
-    gap: 20px;
+    display: flex; /* Usa un diseño flexible */
+    align-items: center; /* Alinea elementos verticalmente */
+    justify-content: space-between; /* Espacio entre elementos */
+    padding: 60px 40px; /* Espaciado interno */
+    gap: 20px; /* Espaciado entre elementos */
 }
 
 .studio-info {
-    flex: 1;
+    flex: 1; /* Flexibilidad del contenedor */
 }
 
 .studio-info h2 {
-    font-size: 120px; /* Aumentado */
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 60px; /* Tamaño de fuente aumentado */
+    font-weight: bold; /* Fuente en negrita */
+    margin-bottom: 20px; /* Margen inferior */
 }
 
 .studio-info p {
-    font-size: 80px; /* Aumentado */
-    line-height: 1.5;
+    font-size: 60px; /* Tamaño de fuente aumentado */
+    line-height: 1.5; /* Altura de línea */
 }
 
 .studio-img {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex: 1; /* Flexibilidad del contenedor */
+    display: flex; /* Usa un diseño flexible */
+    justify-content: center; /* Centra elementos horizontalmente */
+    align-items: center; /* Centra elementos verticalmente */
 }
 
 .studio-img img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100%; /* Ancho máximo */
+    height: auto; /* Altura automática */
 }
 
 /* Meet */
 .meet {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+    display: flex; /* Usa un diseño flexible */
+    flex-direction: column; /* Dirección de los elementos en columna */
+    width: 100%; /* Ancho completo */
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina padding */
 }
 
 .meet-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0;
-    width: 100%;
-    height: 70%; /* Aumentado */
+    display: grid; /* Usa un diseño de cuadrícula */
+    grid-template-columns: repeat(4, 1fr); /* Cuatro columnas iguales */
+    gap: 0; /* Sin espacio entre elementos */
+    width: 100%; /* Ancho completo */
+    height: 70%; /* Altura aumentada */
 }
 
 .meet-grid-item {
-    width: 100%;
-    height: 100%;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
 }
 
 .meet-grid-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    object-fit: contain; /* Ajusta la imagen */
+    display: block; /* Muestra como bloque */
 }
 
 .meet-text {
-    background-color: #00aaff;
-    text-align: center;
-    padding: 20px;
-    height: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    font-size: 60px; /* Aumentado */
+    background-color: #00aaff; /* Color de fondo */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espaciado interno */
+    height: 30%; /* Altura */
+    display: flex; /* Usa un diseño flexible */
+    justify-content: center; /* Centra elementos horizontalmente */
+    align-items: center; /* Centra elementos verticalmente */
+    margin: 0; /* Elimina márgenes */
+    font-size: 60px; /* Tamaño de fuente aumentado */
 }
 
 /* Footer */
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background-color: black;
-    color: white;
-    font-size: 60px; /* Aumentado */
+    display: flex; /* Usa un diseño flexible */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Alinea elementos verticalmente */
+    padding: 40px; /* Espaciado interno */
+    background-color: black; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-size: 60px; /* Tamaño de fuente aumentado */
 }
 
 .footer div {
-    text-align: center;
+    text-align: center; /* Centra el texto */
 }
 
 /* Responsive */
 @media (max-width: 768px) {
     .intro-section,
     .studio {
-        flex-direction: column-reverse;
+        flex-direction: column-reverse; /* Dirección de los elementos en columna inversa */
     }
 
     .meet-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas iguales */
     }
 
     .hero h1 {
-        font-size: 3em; /* Aumentado */
+        font-size: 3em; /* Tamaño del texto aumentado */
     }
 
     .programs h2,
     .studio-info h2,
     .intro-text h2 {
-        font-size: 60px; /* Aumentado */
+        font-size: 40px; /* Tamaño de fuente aumentado */
     }
 
     .program-item {
-        width: 90%; /* Aumentado */
+        width: 90%; /* Ancho aumentado */
     }
 
     .program-item p {
-        font-size: 60px; /* Aumentado */
+        font-size: 40px; /* Tamaño de fuente aumentado */
     }
 
     .intro-text p,
     .studio-info p {
-        font-size: 50px; /* Aumentado */
+        font-size: 50px; /* Tamaño de fuente aumentado */
     }
 
     .meet-text {
-        font-size: 60px; /* Aumentado */
+        font-size: 60px; /* Tamaño de fuente aumentado */
     }
 
     .footer {
-        font-size: 60px; /* Aumentado */
+        font-size: 60px; /* Tamaño de fuente aumentado */
     }
 }
