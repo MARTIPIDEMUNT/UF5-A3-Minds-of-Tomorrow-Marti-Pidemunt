@@ -15,7 +15,6 @@ body {
     background-position: center; /* Centra la imagen */
     background-size: cover; /* Hace que la imagen cubra todo el contenedor */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
-    font-size: em; /* Tamaño de fuente aumentado */
 }
 
 .hero h1 {
@@ -42,7 +41,7 @@ body {
 }
 
 .intro-text h2 {
-    font-size: 120px; /* Tamaño de fuente aumentado */
+    font-size: 60px; /* Tamaño de fuente aumentado */
     font-weight: bold; /* Fuente en negrita */
     margin-bottom: 20px; /* Margen inferior */
 }
@@ -62,7 +61,7 @@ body {
 
 .intro-img img {
     max-width: 1000px; /* Ancho máximo aumentado */
-    height: 1200px; /* Altura aumentada */
+    height: 600px; /* Altura aumentada */
 }
 
 .label {
@@ -73,7 +72,7 @@ body {
     padding: 10px 20px; /* Espaciado interno */
     border-radius: 5px; /* Bordes redondeados */
     font-family: 'Cursive', sans-serif; /* Fuente */
-    font-size: 80px; /* Tamaño de fuente aumentado */
+    font-size: 60px; /* Tamaño de fuente aumentado */
     font-weight: bold; /* Fuente en negrita */
     color: black; /* Color del texto */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra */
@@ -82,14 +81,14 @@ body {
 /* Programs */
 .programs {
     background-color: #00d084; /* Color de fondo */
-    padding: 60px 40px; /* Espaciado interno */
+    padding: 20px 20px; /* Espaciado interno */
     text-align: center; /* Centra el texto */
 }
 
 .programs h2 {
-    font-size: 60px; /* Tamaño de fuente aumentado */
+    font-size: 30px; /* Tamaño de fuente aumentado */
     font-weight: bold; /* Fuente en negrita */
-    margin-bottom: 50px; /* Margen inferior */
+    margin-bottom: 20px; /* Margen inferior */
     color: black; /* Color del texto */
 }
 
@@ -97,25 +96,25 @@ body {
     display: flex; /* Usa un diseño flexible */
     justify-content: center; /* Centra elementos horizontalmente */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan */
-    gap: 40px; /* Espaciado entre elementos */
+    gap: 20px; /* Espaciado entre elementos */
 }
 
 .program-item {
     text-align: center; /* Centra el texto */
     width: 300px; /* Ancho aumentado */
-    margin: 100px; /* Margen */
+    margin: 50px; /* Margen */
 }
 
 .program-item img {
     width: 100%; /* Ancho completo */
-    height: 400px; /* Altura aumentada */
+    height: 250px; /* Altura aumentada */
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 
 .program-item p {
     margin-top: 20px; /* Margen superior */
-    font-size: 60px; /* Tamaño de fuente aumentado */
+    font-size: 40px; /* Tamaño de fuente aumentado */
     font-weight: bold; /* Fuente en negrita */
     color: black; /* Color del texto */
 }
@@ -125,7 +124,7 @@ body {
     display: flex; /* Usa un diseño flexible */
     align-items: center; /* Alinea elementos verticalmente */
     justify-content: space-between; /* Espacio entre elementos */
-    padding: 60px 40px; /* Espaciado interno */
+    padding: 20px 40px; /* Espaciado interno */
     gap: 20px; /* Espaciado entre elementos */
 }
 
@@ -134,13 +133,13 @@ body {
 }
 
 .studio-info h2 {
-    font-size: 60px; /* Tamaño de fuente aumentado */
+    font-size: 40px; /* Tamaño de fuente aumentado */
     font-weight: bold; /* Fuente en negrita */
     margin-bottom: 20px; /* Margen inferior */
 }
 
 .studio-info p {
-    font-size: 60px; /* Tamaño de fuente aumentado */
+    font-size: 40px; /* Tamaño de fuente aumentado */
     line-height: 1.5; /* Altura de línea */
 }
 
@@ -195,7 +194,7 @@ body {
     justify-content: center; /* Centra elementos horizontalmente */
     align-items: center; /* Centra elementos verticalmente */
     margin: 0; /* Elimina márgenes */
-    font-size: 60px; /* Tamaño de fuente aumentado */
+    font-size: 30px; /* Tamaño de fuente aumentado */
 }
 
 /* Footer */
@@ -206,7 +205,7 @@ body {
     padding: 40px; /* Espaciado interno */
     background-color: black; /* Color de fondo */
     color: white; /* Color del texto */
-    font-size: 60px; /* Tamaño de fuente aumentado */
+    font-size: 30px; /* Tamaño de fuente aumentado */
 }
 
 .footer div {
@@ -244,14 +243,14 @@ body {
 
     .intro-text p,
     .studio-info p {
-        font-size: 50px; /* Tamaño de fuente aumentado */
+        font-size: 25px; /* Tamaño de fuente aumentado */
     }
 
     .meet-text {
-        font-size: 60px; /* Tamaño de fuente aumentado */
+        font-size: 25px; /* Tamaño de fuente aumentado */
     }
 
     .footer {
-        font-size: 60px; /* Tamaño de fuente aumentado */
+        font-size: 40px; /* Tamaño de fuente aumentado */
     }
 }
