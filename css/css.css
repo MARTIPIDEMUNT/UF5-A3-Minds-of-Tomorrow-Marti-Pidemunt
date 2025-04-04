@@ -15,7 +15,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 3em; /* Aumentado */
+    font-size: em; /* Aumentado */
 }
 
 .hero h1 {
@@ -115,7 +115,7 @@ body {
 
 .program-item p {
     margin-top: 20px;
-    font-size: 90px; /* Aumentado */
+    font-size: 60px; /* Aumentado */
     font-weight: bold;
     color: black;
 }
@@ -126,7 +126,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 60px 40px;
-    gap: 40px;
+    gap: 20px;
 }
 
 .studio-info {
@@ -136,7 +136,7 @@ body {
 .studio-info h2 {
     font-size: 120px; /* Aumentado */
     font-weight: bold;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .studio-info p {
@@ -195,7 +195,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    font-size: 120px; /* Aumentado */
+    font-size: 60px; /* Aumentado */
 }
 
 /* Footer */
@@ -206,7 +206,7 @@ body {
     padding: 40px;
     background-color: black;
     color: white;
-    font-size: 100px; /* Aumentado */
+    font-size: 60px; /* Aumentado */
 }
 
 .footer div {
@@ -225,7 +225,7 @@ body {
     }
 
     .hero h1 {
-        font-size: 4em; /* Aumentado */
+        font-size: 3em; /* Aumentado */
     }
 
     .programs h2,
@@ -248,10 +248,10 @@ body {
     }
 
     .meet-text {
-        font-size: 90px; /* Aumentado */
+        font-size: 60px; /* Aumentado */
     }
 
     .footer {
-        font-size: 80px; /* Aumentado */
+        font-size: 60px; /* Aumentado */
     }
 }
